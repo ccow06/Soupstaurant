@@ -1,0 +1,160 @@
+body {
+  background-color: #cf9100;
+  margin: 0;
+}
+
+h1 {
+  font-family: georgia;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+hr {
+  border: 1px solid grey;
+}
+
+a {
+  color: blue;
+}
+
+img {
+  border: 3px solid black;
+}
+
+.warning {
+  font-size: 15px;
+  color: grey;
+}
+
+.red a {
+  color: red;
+}
+
+.seafoam a {
+  color: #10E6AD;
+}
+
+.nolink {
+  text-decoration: none;
+  color: gray;
+}
+
+#topNav {
+  background-color: darkred;
+  height: 65px;
+  margin: 0px;
+  border: 5px solid black;
+}
+
+#topNav li {
+  display: inline;
+  float: right;
+  padding: 15px;
+  border-left: 5px solid black;
+}
+
+#topNav li:hover {
+  background-color: blue;
+}
+
+#topNav li a{
+  text-decoration: none;
+  font-family: georgia;
+  font-size: 30px;
+}
+
+#topNav li a:hover {
+  color: magenta;
+}
+
+#topNav #restaurantname {
+  float: left;
+  font-family: georgia;
+  font-size: 30px;
+  border-right: 5px solid black;
+}
+
+#menuNav {
+  float: left;
+  height: 100%;
+  width: 200px;
+  background-color: green;
+  border: 5px solid black;
+  border-top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#menuNav li {
+  margin: 15px 0px;
+  list-style: none;
+  font-family: georgia;
+  font-size: 24px;
+  align: center;
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+}
+
+#menuNav li a {
+  text-decoration: none;
+}
+
+#menuNav li a:hover {
+  color: magenta;
+}
+
+#menuNav #menuText {
+  border: 0px;
+  border-bottom: 3px dotted black;
+  margin: 0px;
+}
+
+#soupPrice {
+  font-family: sans-serif;
+  font-size: 18px;
+  list-style: none;
+}
+
+#cham {
+  background-color: #FFFFAA;
+}
+
+#cham p {
+  color: #800000;
+}
+
+#tombas {
+  background-color: red;
+}
+
+#walm {
+  background-color: indigo;
+}
+
+#staff {
+  background-color: #444444;
+}
+
+#event {
+  background-color: #EE6600;
+}
+
+#about {
+  background-color: #D0AA1E
+}
+
+#min {
+  background-color: orange;
+}
+
+#misc {
+  background-color: darkgreen;
+}
+
+#home {
+  background-color: #DDBB55;
+}
